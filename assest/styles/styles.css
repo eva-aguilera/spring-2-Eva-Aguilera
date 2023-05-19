@@ -1,0 +1,678 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(113, 5, 221);
+    color: white;
+
+}
+
+header {
+    width: 100%;
+    height: 8vh;
+    background-color: rgb(221, 189, 252);
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    margin-left: 5rem;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    background-color: rgb(153, 21, 193);
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+.logo {
+    width: 5rem;
+    height: 4rem;
+    margin-right: 3rem;
+    box-shadow: none;
+}
+
+.titulo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1rem;
+    margin-top: 1.5rem;
+}
+
+footer {
+
+    background-color: rgb(221, 189, 252);
+    font-size: 1.3rem;
+    display: flex;
+
+    justify-content: space-around;
+    color: white;
+}
+
+.caja-img {
+    width: 150vh;
+    height: 60vh;
+    background-image: url(../Images-Task1/playing.jpg);
+    background-size: cover;
+    margin-top: 1.8rem;
+    margin-left: 15rem;
+
+
+}
+
+.caja-p-img {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    justify-content: center;
+
+}
+
+.img-twoGuys {
+    width: 30rem;
+    height: 20rem;
+}
+
+#texto {
+    width: 20%;
+    font-size: 2rem;
+    text-align: center;
+}
+
+/* esto es About Us */
+img {
+    width: 30rem;
+    height: 10rem;
+    height: auto;
+    object-fit: fill;
+    border-radius: 30px 30px 30px 30px;
+    box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem white;
+}
+
+.contenedor {
+    margin: 5rem;
+    font-size: 1.5rem;
+}
+
+p {
+    width: 30rem;
+    margin: 8rem 8rem 8rem 8rem;
+}
+
+.img-p1 {
+    display: flex;
+    justify-content: center;
+    margin: 5rem;
+}
+
+.img-p2 {
+    display: flex;
+    justify-content: center;
+    margin: 5rem;
+}
+
+.img-p3 {
+    display: flex;
+    justify-content: center;
+    margin: 5rem;
+}
+
+/* esto es contact */
+.section-img {
+    object-fit: fill;
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.textodep {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+#mailandphone {
+    font-size: 1rem;
+
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px 370px 10px;
+}
+
+.phone {
+    margin-left: 5rem;
+    color: rgb(3, 3, 41);
+
+}
+
+.mail {
+    color: rgb(3, 3, 41);
+}
+
+/* Esto es Benefits and Tips */
+.lista-1 {
+    display: flex;
+    justify-content: center;
+    margin: 5rem;
+}
+
+.lista-2 {
+    display: flex;
+    justify-content: center;
+    margin: 5rem;
+}
+
+.list1 {
+    font-size: 2rem;
+    width: 30rem;
+    margin: 8rem 8rem 8rem 8rem
+}
+
+.list2 {
+    font-size: 2rem;
+    width: 30rem;
+    margin: 8rem 8rem 8rem 8rem
+}
+
+
+
+/* More information
+ */
+thead {
+    background-color: white;
+    color: black;
+    font-size: 3rem;
+    text-align: center;
+    height: 10vh;
+}
+
+tbody {
+    background-color: white;
+    color: black;
+    font-size: 3rem;
+    text-align: center;
+}
+
+table {
+    width: 70vh;
+    height: 50vh;
+    margin: 5rem;
+    background-color: black;
+    margin-left: 32%;
+}
+
+.boxfooter {
+    height: 13rem;
+}
+
+/* esto es raffle
+ */
+iframe {
+    width: 100%;
+    height: 90%;
+}
+
+.credit .cash .debit {
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid rgb(211, 177, 211);
+    width: 28%;
+
+}
+
+input {
+    height: 2rem;
+}
+
+select {
+    height: 2rem;
+}
+
+.mapayforms {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 90%;
+    margin-top: 1rem;
+}
+
+fieldset {
+    display: flex;
+    border: none;
+    flex-direction: column;
+    width: 100%;
+}
+
+.service-area {
+    display: flex;
+    flex-direction: column;
+}
+
+.tersm {
+    display: flex;
+}
+
+.tersm label {
+    margin-left: 1rem;
+    margin-right: 8rem;
+}
+
+.enviar {
+    width: 5rem;
+
+}
+
+label {
+    font-size: 1.3rem;
+}
+
+
+@media only screen and (min-width:320px) and (max-width:767px) {
+
+    /* esto es home */
+    html {
+        font-size: 10px;
+    }
+
+    * .logo {
+        width: 3rem;
+        height: 3rem;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        right: 16rem;
+
+    }
+
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-top: 3rem;
+    }
+
+    a {
+        font-size: 25px;
+        display: flex;
+        flex-direction: column;
+        margin: 0.2rem;
+        padding: 0;
+
+    }
+
+    header {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    footer {
+        font-size: 1rem;
+        margin-top: 8rem;
+
+
+    }
+
+    .titulo {
+        text-align: center;
+
+        padding-top: 17rem;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    .caja-img {
+
+        display: flex;
+        align-items: center;
+        width: 30rem;
+        height: 10rem;
+        background-image: url(../Images-Task1/playing.jpg);
+        background-size: cover;
+        margin-left: 1rem;
+
+    }
+
+    .caja-p-img {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-top: 2rem;
+    }
+
+    .img-twoGuys {
+        width: 20rem;
+        height: 10rem;
+        margin-right: 0%;
+        border-radius: 10px;
+    }
+
+    #texto {
+        font-size: 15px;
+        width: 15rem;
+        height: 3rem;
+    }
+
+    /* esto es About Us */
+
+
+    .contenedor {
+        width: 20px;
+        font-size: 1rem;
+        margin-left: 10rem;
+    }
+
+    p {
+        width: 10rem;
+        margin: 5px 0px 0px 0px;
+    }
+
+    .img-p1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+    }
+
+    .img-p2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img-p3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Esto es contact */
+
+    img {
+        width: 25rem;
+        border-radius: 10px;
+        box-shadow: none;
+        object-fit: cover;
+    }
+
+    .textodep {
+        width: 15rem;
+        font-size: 2rem;
+
+        margin-left: 8rem;
+        margin-top: 1rem;
+    }
+
+    #mailandphone {
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        font-size: 13px;
+        color: white;
+        margin-top: 3rem;
+
+    }
+
+    .phone {
+        font-size: 18px;
+        margin-left: 0rem;
+    }
+
+    .mail {
+        font-size: 18px;
+    }
+
+
+
+    /* Esto es Benefits and Tips */
+
+
+    .lista-1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+
+    }
+
+    .lista-2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+
+
+    }
+
+    .list1 {
+
+        font-size: 20px;
+        width: 30rem;
+        margin-left: 1rem;
+
+
+
+    }
+
+    .list2 {
+        font-size: 20px;
+        width: 25rem;
+        margin-left: 1rem;
+
+    }
+
+    /* More information
+ */
+    .tabla {
+        display: flex;
+        justify-content: center;
+        margin-right: 4rem;
+    }
+
+    thead {
+        background-color: white;
+        color: black;
+        font-size: 3rem;
+        text-align: center;
+        height: 10vh;
+    }
+
+    tbody {
+        background-color: white;
+        color: black;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    table {
+
+        width: 30px;
+        height: 30px;
+        background-color: black;
+    }
+
+
+    /* esto es raffle
+ */
+
+    .mapayforms {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column-reverse;
+        width: 100%;
+        height: 90%;
+        margin-top: 4rem;
+    }
+
+    .mapa {
+        font-size: 1.5rem;
+    }
+
+    form {
+        border: none;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:1024px) {
+    nav {
+        margin-left: 2rem;
+    }
+
+    a {
+        margin: 0.2rem;
+        font-size: 1.1rem;
+        padding: 0.1rem;
+        text-align: center;
+    }
+
+    .logo {
+        width: 4rem;
+        height: 3rem;
+    }
+
+    .caja-img {
+        width: 40rem;
+        height: 20rem;
+        margin-top: 1.8rem;
+        margin-left: 4rem;
+
+    }
+
+
+    .img-twoGuys {
+        width: 25rem;
+        height: 15rem;
+    }
+
+    #texto {
+        width: 20%;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .caja-p-img {
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+        display: flex;
+        justify-content: space-around;
+
+
+    }
+
+    /*     esto es about
+ */
+    img {
+        width: 25rem;
+        height: 13rem;
+        box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem white;
+
+    }
+
+    p {
+        margin: 0rem;
+        font-size: 17px;
+        width: 30%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .contenedor {
+        margin: 0rem;
+        font-size: 1.5rem;
+    }
+
+    .img-p1 {
+        display: flex;
+        justify-content: space-around;
+        margin: 3rem;
+    }
+
+    .img-p2 {
+        display: flex;
+        justify-content: space-around;
+        margin: 3rem;
+    }
+
+    .img-p3 {
+        display: flex;
+        justify-content: space-around;
+        margin: 3rem;
+    }
+
+    /* esto es benefits and tips
+ */
+
+
+    .list1 {
+        font-size: 17px;
+        margin: 2rem 4rem 4rem 4rem
+    }
+
+    .list2 {
+        font-size: 17px;
+        margin: 2rem 4rem 4rem 4rem
+    }
+
+    /* esto es more information
+ */
+    table {
+        margin-left: 20%;
+    }
+
+    /*     esto es raffle
+ */
+    .enviar {
+
+        width: 5rem;
+
+        margin-left: 0rem;
+    }
+
+    form {
+
+        width: 34%;
+    }
+
+    .tersm {
+        margin-top: 0.2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+
+
+
+
+
+}

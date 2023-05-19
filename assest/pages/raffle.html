@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="shortcut icon" href="../Images-Task1/icon.png" type="image/x-icon">
+
+    <title>Raffle Mindy Games</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="/index.html">Home</a>
+            <a href="../pages/AboutUs.html">About Us</a>
+            <a href="../pages/Contact.html">Contact</a>
+            <a href="../pages/BenefitsandTips.html">Benefits and Tips</a>
+            <a href="../pages/MoreInformation.html">More Information</a>
+            <a href="#">Raffle</a>
+        </nav>
+        <img class="logo" src="../Images-Task1/logo.png" alt="logo">
+
+    </header>
+    <main>
+        <div class="titulo">
+            <h1>Raffle</h1>
+            <h2>You can collaborate and register for one of our tournaments
+            </h2>
+        </div>
+        <div class="mapayforms">
+
+            <section class="mapa">
+                <h3>Our location where the tournaments are held is at:
+                </h3>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d225470.77384459626!2d-82.45428045!3d27.99448255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c2b782b3b9d1e1%3A0xa75f1389af96b463!2sTampa%2C%20Florida%2C%20EE.%20UU.!5e0!3m2!1ses-419!2scl!4v1684427052914!5m2!1ses-419!2scl"
+                    style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+            <form action="./show_data.html" id="forms-main" method="get">
+                <fieldset>
+
+                    <label for="First" class="name">First Name:</label>
+                    <input type="text" name="name" id="First">
+                    <label for="name">Last Name:</label>
+                    <input type="text" name="lastname" id="name">
+
+                </fieldset>
+                <fieldset id="email1">
+                    <label for="email">E-mail:</label>
+                    <input type="email" name="email" id="email">
+                </fieldset>
+
+                <fieldset>
+                    <label>Choose Game:</label>
+                    <select name="gender" id="gender">
+                        <option value="league">League of legends</option>
+                        <option value="Valorant">Valorant</option>
+                        <option value="Counter">Counter Strike</option>
+                    </select>
+                </fieldset>
+
+                <fieldset>
+                    <label>Choose Date:</label>
+                    <select name="date" id="date">
+                        <option value="20/08">20/08</option>
+                        <option value="12/10">12/10</option>
+                        <option value="27/11">27/11</option>
+
+                    </select>
+                </fieldset>
+
+                <fieldset>
+                    <label>Payment options:</label>
+                    <div id="cash">
+                        <input type="radio" name="pay" value="Cash">
+                        <label>Cash</label>
+                    </div>
+                    <div id="Credit">
+                        <input type="radio" name="pay" value="Credit card">
+                        <label>Credit cards</label>
+                    </div>
+                    <div id="debit">
+                        <input type="radio" name="pay" value="Debit card">
+                        <label>Debit cards</label>
+
+                    </div>
+                    <div class="service-area">
+                        <label>Message (optional)</label>
+                        <textarea name="services" id="services" cols="20" rows="10"></textarea>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <div class="tersm">
+                        <input type="checkbox" name="terminos" required>
+                        <label>I accept terms and conditions</label>
+                        <input class="enviar" type="submit" value="send" id="submit">
+                    </div>
+                </fieldset>
+
+            </form>
+        </div>
+    </main>
+    <footer>
+        <h2>Created By: Eva Aguilera</h2>
+    </footer>
+</body>
+
+</html>
